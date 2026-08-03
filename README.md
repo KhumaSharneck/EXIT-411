@@ -20,7 +20,7 @@ Gameplay screenshots demonstrating the main features can be found below.
 
 ## Gameplay
 
-![Gameplay](resources/images/full-gameplay-test.png)
+![Gameplay](full-gameplay-test.png)
 
 Navigate the abandoned facility, discover rooms and progress towards the exit.
 
@@ -28,7 +28,7 @@ Navigate the abandoned facility, discover rooms and progress towards the exit.
 
 ## Map System
 
-![Map](resources/images/map-system.png)
+![Map](map-system.png)
 
 Displays discovered rooms while hiding unexplored areas.
 
@@ -36,7 +36,7 @@ Displays discovered rooms while hiding unexplored areas.
 
 ## Help Command
 
-![Help](resources/images/help-command.png)
+![Help](help-command.png)
 
 Built-in command reference available at any point during gameplay.
 
@@ -44,7 +44,7 @@ Built-in command reference available at any point during gameplay.
 
 ## Successful Escape
 
-![Game Completion](resources/images/game-completion.png)
+![Game Completion](game-completion.png)
 
 Reach Exit 411 with the security keycard to complete the game.
 
