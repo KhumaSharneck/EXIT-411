@@ -2,7 +2,7 @@
 
 A Java-based text adventure game developed using **Object-Oriented Programming (OOP)** principles.
 
-The player wakes up inside a dark abandoned facility and must explore interconnected rooms, survive hazards, locate a security keycard and escape through **Exit 411**.
+The player wakes up inside a dark abandoned facility and must explore interconnected rooms, survive hazards, locate a security keycard before escaping through **Exit 411**.
 
 The project demonstrates object-oriented design, command parsing, inventory management, player state tracking and modular software architecture.
 
@@ -18,11 +18,11 @@ Gameplay screenshots demonstrating the main features can be found below.
 
 # Screenshots
 
-## Dungeon Map Implementation
+## Dungeon Map Code
 
-![Dungeon Map Implementation](dungeonmap-code.png)
+![Dungeon Map Code](dungeonmap-code.png)
 
-Implementation of the 3×3 dungeon layout, room creation and room discovery system.
+Source code implementing the dungeon layout, room creation and map management.
 
 ---
 
@@ -36,17 +36,17 @@ Gameplay demonstrating room exploration, player movement and the dynamic map dis
 
 ## Help Command
 
-![Help](dungeonmap-code.png)
+![Help Command](dungeonmap-code.png)
 
-Built-in command reference available at any point during gameplay.
+The game includes a built-in help command that displays all available commands during gameplay.
 
 ---
 
 ## Successful Escape
 
-![Game Completion](help-command.png)
+![Successful Escape](help-command.png)
 
-Reach Exit 411 with the security keycard to complete the game.
+Collect the security keycard, unlock Exit 411 and successfully escape the facility.
 
 ---
 
@@ -75,7 +75,7 @@ Reach Exit 411 with the security keycard to complete the game.
 | `take` | Pick up an item |
 | `inventory` / `inv` | Display inventory |
 | `health` | Display current health |
-| `look` | Redisplay room description |
+| `look` | Redisplay the current room description |
 | `help` | Display available commands |
 | `quit` | Exit the game |
 
@@ -90,7 +90,7 @@ The player must:
 - Reach Exit 411
 - Escape successfully
 
-Some rooms contain traps which damage the player's health, encouraging careful exploration.
+Some rooms contain traps that reduce the player's health, encouraging careful exploration and strategic movement.
 
 ---
 
@@ -98,6 +98,7 @@ Some rooms contain traps which damage the player's health, encouraging careful e
 
 - Java
 - Object-Oriented Programming (OOP)
+- Visual Studio Code
 - Git
 - GitLab
 
@@ -105,7 +106,7 @@ Some rooms contain traps which damage the player's health, encouraging careful e
 
 # Project Structure
 
-```
+```text
 CS10P-TextGame
 ├── resources
 │   └── images
@@ -126,15 +127,16 @@ CS10P-TextGame
 
 # Skills Demonstrated
 
-- Object-Oriented Programming
 - Java Development
+- Object-Oriented Programming
+- Software Design
 - Command Parsing
+- State Management
+- Inventory Management
+- Collections & Data Structures
 - Encapsulation
 - Abstraction
 - Modularity
-- Collections & Data Structures
-- Inventory Management
-- State Management
 - Debugging & Testing
 - Version Control with Git
 
@@ -205,7 +207,7 @@ Git and GitLab were used throughout development to:
 
 - Track project changes
 - Manage development progress
-- Maintain version history
+- Maintain a complete development history
 - Safely back up the project
 
 ---
