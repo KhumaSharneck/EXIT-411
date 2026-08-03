@@ -36,7 +36,7 @@ Gameplay demonstrating room exploration, player movement and the dynamic map dis
 
 ## Help Command
 
-![Help](movement-testing.png)
+![Help](dungeonmap-code.png)
 
 Built-in command reference available at any point during gameplay.
 
