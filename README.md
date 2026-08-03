@@ -1,27 +1,71 @@
 # EXIT 411
 
-A Java-based text adventure game developed using Object-Oriented Programming (OOP) principles.
+A Java-based text adventure game developed using **Object-Oriented Programming (OOP)** principles.
 
-The player wakes up inside a dark abandoned facility and must explore different rooms, survive hazards, locate a security keycard and escape through Exit 411.
+The player wakes up inside a dark abandoned facility and must explore interconnected rooms, survive hazards, locate a security keycard and escape through **Exit 411**.
+
+The project demonstrates object-oriented design, command parsing, inventory management, player state tracking and modular software architecture.
 
 ---
 
-## Features
+# Gameplay Demo
+
+This project is a terminal-based Java application.
+
+Gameplay screenshots demonstrating the main features can be found below.
+
+---
+
+# Screenshots
+
+## Gameplay
+
+![Gameplay](resources/images/full-gameplay-test.png)
+
+Navigate the abandoned facility, discover rooms and progress towards the exit.
+
+---
+
+## Map System
+
+![Map](resources/images/map-system.png)
+
+Displays discovered rooms while hiding unexplored areas.
+
+---
+
+## Help Command
+
+![Help](resources/images/help-command.png)
+
+Built-in command reference available at any point during gameplay.
+
+---
+
+## Successful Escape
+
+![Game Completion](resources/images/game-completion.png)
+
+Reach Exit 411 with the security keycard to complete the game.
+
+---
+
+# Features
 
 - Text-based command system
-- 3x3 dungeon exploration
+- 3×3 dungeon exploration
 - Room discovery and map tracking
 - Inventory system
-- Collectable keycard
+- Collectable security keycard
 - Locked exit puzzle
 - Health and trap system
 - Boundary checking
 - Help and utility commands
-- Modular Object-Oriented design
+- Modular Object-Oriented class structure
 
 ---
 
-## Commands
+# Commands
 
 | Command | Description |
 |----------|-------------|
@@ -30,27 +74,27 @@ The player wakes up inside a dark abandoned facility and must explore different 
 | `map` | Display discovered rooms |
 | `take` | Pick up an item |
 | `inventory` / `inv` | Display inventory |
-| `health` | Show current health |
+| `health` | Display current health |
 | `look` | Redisplay room description |
 | `help` | Display available commands |
 | `quit` | Exit the game |
 
 ---
 
-## Gameplay Objective
+# Gameplay Objective
 
 The player must:
 
 - Explore the abandoned facility
-- Locate the security keycard
+- Find the security keycard
 - Reach Exit 411
 - Escape successfully
 
-Some rooms contain traps which reduce the player's health.
+Some rooms contain traps which damage the player's health, encouraging careful exploration.
 
 ---
 
-## Technologies
+# Technologies
 
 - Java
 - Object-Oriented Programming (OOP)
@@ -59,49 +103,71 @@ Some rooms contain traps which reduce the player's health.
 
 ---
 
-## Project Structure
+# Project Structure
 
-| Class | Responsibility |
-|------|----------------|
-| Main | Starts the game |
-| Game | Main game loop and command handling |
-| Player | Stores player state and movement |
-| Room | Represents each room |
-| DungeonMap | Stores and displays the dungeon |
-| Inventory | Stores collected items |
-| Item | Represents collectable objects |
-| CommandParser | Processes player commands |
+```
+CS10P-TextGame
+├── resources
+│   └── images
+├── src
+│   ├── Main.java
+│   ├── Game.java
+│   ├── Player.java
+│   ├── Room.java
+│   ├── DungeonMap.java
+│   ├── Inventory.java
+│   ├── Item.java
+│   └── CommandParser.java
+├── README.md
+└── REPORT.md
+```
 
 ---
 
-## Object-Oriented Programming Concepts
+# Skills Demonstrated
+
+- Object-Oriented Programming
+- Java Development
+- Command Parsing
+- Encapsulation
+- Abstraction
+- Modularity
+- Collections & Data Structures
+- Inventory Management
+- State Management
+- Debugging & Testing
+- Version Control with Git
+
+---
+
+# Object-Oriented Programming Concepts
 
 ### Encapsulation
 
-Private fields are accessed through methods and getters.
+Classes manage their own private data through methods and getters.
 
 Examples include:
 
-- Player stores health and position
-- Room stores descriptions, discovery state and traps
+- Player stores health, inventory and position.
+- Room stores descriptions, discovery state and traps.
 
 ### Abstraction
 
-Game logic is separated into reusable methods such as:
+Complex game behaviour is separated into reusable methods such as:
 
 - `displayMap()`
-- `moveNorth()`
 - `handleCommand()`
+- `movePlayer()`
 
 ### Modularity
 
-Each class has a single responsibility, making the project easier to maintain and extend.
+Each class has a dedicated responsibility, making the project easier to maintain, test and extend.
 
 ---
 
-## Testing
+# Testing
 
-The game was tested using a range of gameplay scenarios and edge cases.
+The game was tested using a variety of gameplay scenarios and edge cases.
 
 | Feature | Result |
 |----------|--------|
@@ -114,11 +180,11 @@ The game was tested using a range of gameplay scenarios and edge cases.
 | Health and trap system | ✅ Passed |
 | Map discovery system | ✅ Passed |
 
-Testing confirmed that all core gameplay systems functioned correctly.
+Testing confirmed that all major gameplay systems functioned as expected.
 
 ---
 
-## Future Improvements
+# Future Improvements
 
 Potential future improvements include:
 
@@ -133,17 +199,18 @@ Potential future improvements include:
 
 ---
 
-## Version Control
+# Version Control
 
 Git and GitLab were used throughout development to:
 
-- Track changes
+- Track project changes
 - Manage development progress
-- Maintain project backups
+- Maintain version history
+- Safely back up the project
 
 ---
 
-## Compilation
+# Compilation
 
 Compile all Java source files:
 
@@ -159,7 +226,7 @@ javac src/Main.java src/Game.java src/Player.java src/Room.java src/DungeonMap.j
 
 ---
 
-## Running the Project
+# Running the Project
 
 ```bash
 java -cp src Main
@@ -167,22 +234,7 @@ java -cp src Main
 
 ---
 
-## Skills Demonstrated
-
-- Object-Oriented Programming
-- Java Development
-- Encapsulation
-- Abstraction
-- Modularity
-- Command Parsing
-- Collections
-- File Structure Design
-- Debugging & Testing
-- Version Control with Git
-
----
-
-## Author
+# Author
 
 **Khuma Sharneck**
 
