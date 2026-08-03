@@ -36,7 +36,7 @@ Gameplay demonstrating room exploration, player movement and the dynamic map dis
 
 ## Help Command
 
-![Help](help-command.png)
+![Help](movement-testing.png)
 
 Built-in command reference available at any point during gameplay.
 
@@ -44,7 +44,7 @@ Built-in command reference available at any point during gameplay.
 
 ## Successful Escape
 
-![Game Completion](game-completion.png)
+![Game Completion](help-command.png)
 
 Reach Exit 411 with the security keycard to complete the game.
 
