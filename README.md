@@ -34,14 +34,6 @@ Gameplay demonstrating room exploration, player movement and the dynamic map dis
 
 ---
 
-## Help Command
-
-![Help Command](dungeonmap-code.png)
-
-The game includes a built-in help command that displays all available commands during gameplay.
-
----
-
 ## Successful Escape
 
 ![Successful Escape](help-command.png)
