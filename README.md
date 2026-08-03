@@ -18,19 +18,19 @@ Gameplay screenshots demonstrating the main features can be found below.
 
 # Screenshots
 
-## Gameplay
+## Dungeon Map Implementation
 
-![Gameplay](full-gameplay-test.png)
+![Dungeon Map Implementation](dungeonmap-code.png)
 
-Navigate the abandoned facility, discover rooms and progress towards the exit.
+Implementation of the 3×3 dungeon layout, room creation and room discovery system.
 
 ---
 
-## Map System
+## Gameplay
 
-![Map](map-system.png)
+![Gameplay](map-system.png)
 
-Displays discovered rooms while hiding unexplored areas.
+Gameplay demonstrating room exploration, player movement and the dynamic map discovery system.
 
 ---
 
